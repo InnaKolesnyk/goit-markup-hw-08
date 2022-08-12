@@ -1,0 +1,206 @@
+.footer {
+
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--dark-bg-color);
+
+  &__logo {
+    margin-bottom: 20px;
+    display: block;
+}  
+
+  &__inner {
+    display: flex;
+
+}
+}
+
+.footer__logo--white {
+    color: var(--primary-white-color);
+}
+
+.footer__addres {
+    margin-right: 70px;
+    width: 231px;
+}
+
+.footer__maps {
+    margin-bottom: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7;
+    color: var(--primary-white-color);
+
+}
+
+.footer__mail {
+    margin-bottom: 9px;
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms var(--cubic-bezier);
+
+    &:hover,
+    &:focus {
+    color: var(--primary-white-color);
+     }
+}
+
+
+.footer__phone {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms var(--cubic-bezier);
+
+    &:hover,
+    &:focus {
+    color: var(--primary-white-color);
+}
+}
+
+
+
+
+/*footer join*/
+
+.join {
+    display: inline-flex;
+    align-items: baseline;
+    justify-content: center;
+
+    &__subtitle {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+
+    &__item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 10px;
+}
+
+    &__icon {
+    fill: currentColor;
+}
+}
+
+.join__social-list {
+    padding: 0;
+}
+
+.join__link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background-color 250ms var(--cubic-bezier);
+
+    &:hover,
+    &:focus {
+    background-color: var(--accent-color);
+}
+}
+
+
+/*E-mail Sabscription*/
+
+.sabscription {
+    margin-left: auto;
+
+}
+
+.input-subtitle {
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+
+.email--flex {
+    display: flex;
+    align-items: center;
+
+}
+
+.email__label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0000);
+    overflow: hidden;
+}
+
+.email__input {
+    margin: 0;
+    margin-right: 12px;
+    padding: 15px;
+    width: 358px;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: transparent;
+    color: var(--primary-white-color);
+    transition: border-color 250ms var(--cubic-bezier);
+
+   &:hover,
+   &:focus {
+    border-color: var(--accent-color);
+}
+}
+
+
+.sabscription__btn {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    margin: 0;
+    padding: 10px 29px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    font-weight: 700;
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    transition: color 250ms var(--cubic-bezier), background-color 250ms var(--cubic-bezier);
+
+    &:hover,
+    &:focus {
+    color: var(--accent-color);
+    background-color: var(--primary-white-color);
+}
+}
+
+.sabscription__icon {
+    margin-left: 10px;
+    fill: currentColor;
+}

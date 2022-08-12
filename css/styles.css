@@ -1,0 +1,106 @@
+/*:root{
+    /*Fonts*/
+   /* --main-font:Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;*/
+    /*Colors*/
+   /* --title-text-color:#212121;
+    --accent-color:#2196F3;
+    --primary-text-color: #757575;
+    --primary-white-color: #ffffff;
+    --dark-bg-color: #2F303A;
+    /*Timing function*/
+   /* --cubic-bezier:cubic-bezier(0.4, 0, 0.2, 1);
+}*/
+
+
+/*reset styles*/
+
+/*base styles*/
+
+
+/*Header section*/
+
+/*Hero section*/
+
+/*Modal Window*/
+
+/*Features section*/
+
+/*Services section*/
+
+
+/*Team section*/
+/*.team{
+background-color:#F5F4FA;
+}
+.team__list{
+ display: flex;
+ gap: 30px;
+}
+.team__item{
+ flex-basis: calc(100%-3*30px/ 4);
+ box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+  0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.team__wrapper{
+padding: 30px 10px;
+text-align: center;
+background-color: #FFFFFF;
+}
+.team__subtitle{
+ margin-bottom: 10px;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.18;
+ text-align: center;
+ color: var(--title-text-color);
+}
+.team__position{
+ font-size: 16px;
+ line-height: 1,18;
+ text-align: center;
+ color: var(--primary-text-color);
+ margin-bottom: 16px;
+}
+.team__social-list {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.social-list__link {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #AFB1B8;
+    transition: color 250ms var(--cubic-bezier),
+        background-color 250ms var(--cubic-bezier);
+}
+
+.social-list__icon {
+    fill: currentColor;
+}
+
+.social-list__link:hover,
+.social-list__link:focus {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}*/
+
+
+/*Clients*/
+
+/*Portfolio*/
+
+
+/*Footer section*/
+
+
+

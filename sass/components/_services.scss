@@ -1,0 +1,30 @@
+.services {
+    padding-bottom: 94px;
+
+    &__list {
+    display: flex;
+    gap: 30px;
+}
+    &__item {
+    position: relative;
+}
+}
+
+.services__overley {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 370px;
+    height: 70px;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.services__overley-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16/14);
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
