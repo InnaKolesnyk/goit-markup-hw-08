@@ -8,6 +8,9 @@
     &__item {
     position: relative;
 }
+@media screen and (max-width: 1199px) {
+display: none;
+}
 }
 
 .services__overley {
